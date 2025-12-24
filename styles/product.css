@@ -7,6 +7,7 @@
   padding: 16px;
 }
 
+
 /* wrapper runt ett kort */
 .parent-klader {
   width: 320px;
@@ -48,14 +49,19 @@
   justify-content: center;
   overflow: hidden;
   border-radius: 8px;
-  position: relative; /* för badge */
+  position: relative;
+  width: 170px;
+  height: 190px;  
+  margin: 0 auto 8px;
 }
 
 .bild-klader img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
 }
+
 
 /* beskrivning */
 .beskrivning-klader {
@@ -182,19 +188,37 @@
 /* rabatt-badge */
 .discount-badge {
   position: absolute;
-  top: 17px;
-  left: 80px;
-  padding: 4px 8px;
+  top: 10px;      
+  left: 1px;     
+  padding: 4px 10px;
   border-radius: 999px;
   background: #e11d48;
   color: #fff;
   font-size: 0.8rem;
   font-weight: 700;
-  width: 30px;
+  text-align: center;
 }
-
 .badge-minus {
   position: relative;
-  top: -2px;
-  right: 1px;
+  top: -1px;
+}
+.badge-minus {
+  position: relative;
+  top: -2px;  
+  right:1px;
+}
+
+.size-btn.size-unavailable {
+  position: relative;
+}
+
+.size-btn.size-unavailable::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  top: 50%;
+  height: 2px;
+  background: #e11d48;
+  transform: translateY(-50%);
 }
