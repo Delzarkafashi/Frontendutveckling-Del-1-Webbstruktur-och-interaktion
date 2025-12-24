@@ -6,7 +6,7 @@
       "category": "tröja",
       "season": "sommar",
       "colors": ["röd", "svart", "vit"],
-      "sizes": ["S", "M", "L"],
+      "sizes": ["S", "M"],
       "basePrice": 199,
       "discountPercent": 10,
       "image": "assets/images/Sommartröja Tunn röd.png",
@@ -295,7 +295,7 @@
       "sizes": ["S", "M", "L"],
       "basePrice": 399,
       "discountPercent": 5,
-      "image": "assets/images/Vårskor Lätt röd.png",
+      "image": "assets/images/Vårskor Lätta röd.png",
       "inStock": true,
       "description": "Bekväma vårskor med flexibel sula och luftig ovandel, perfekta för långa promenader när gatorna äntligen är fria från snö och slask."
     },
@@ -412,7 +412,7 @@
       "sizes": ["S", "M", "L"],
       "basePrice": 749,
       "discountPercent": 10,
-      "image": "assets/images/Vinterstövlar röd.png",
+      "image": "assets/images/Vinterstövlar röda.png",
       "inStock": true,
       "description": "Varma vinterstövlar med hög skaft och mjuk insida, håller fötterna torra och bekväma även vid längre promenader i kyla och snö."
     }
