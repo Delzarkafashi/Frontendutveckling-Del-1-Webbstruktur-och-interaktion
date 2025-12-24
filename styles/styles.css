@@ -1,0 +1,51 @@
+@import "./header.css";
+@import "./footer.css";
+
+:root{
+  --bg:#0b0c10;
+  --surface:#101218;
+  --card:#121623;
+  --fg:#e6e8ee;
+  --muted:#9aa3b2;
+  --line:#22293a;
+  --brand:#5a7cff;
+  --accent:#00d1b2;
+  --hover:#1a2233;
+  --border:#22293a;
+}
+html, body { 
+  height: 100%; 
+  overflow-y: auto; 
+}
+.page-layout {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:auto 1fr auto;
+  min-height:100svh;
+  width:100%;
+}
+
+/* header */
+.header {
+  grid-area: 1 / 1 / 3 / 13;
+  min-height: 120px;
+  background-color: var(--card);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+/* main */
+.main {
+    grid-area: 3 / 1 / 11 / 13;
+    min-height: 800px;
+    background-color: var(--surface);
+}
+
+/* footer  */
+.site-footer .footer-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center; 
+  align-items: start;
+}
