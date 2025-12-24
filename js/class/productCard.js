@@ -21,24 +21,24 @@ document.addEventListener("DOMContentLoaded", () => {
   const inStock = vinterSko2.inStock;
 
 
-  console.log("Namn:", name);
-  console.log("Ordinarie pris:", price);
-  console.log("Finns i lager:", inStock);
+//   console.log("Namn:", name);
+//   console.log("Ordinarie pris:", price);
+//   console.log("Finns i lager:", inStock);
 
   // If / else
   if (inStock) {
-    console.log("Produkten finns i lager.");
+    // console.log("Produkten finns i lager.");
   } else {
-    console.log("Produkten är slut i lager.");
+    // console.log("Produkten är slut i lager.");
   }
 
   // Loopar
   for (let size of vinterSko2.sizes) {
-    console.log("Storlek:", size);
+    // console.log("Storlek:", size);
   }
 
   for (let color of vinterSko2.colors) {
-    console.log("Färg:", color);
+    // console.log("Färg:", color);
   }
 
   // DOM
