@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./footer.css";
+@import "./product.css";
 
 :root{
   --bg:#0b0c10;
