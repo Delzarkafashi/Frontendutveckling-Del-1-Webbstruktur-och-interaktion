@@ -50,7 +50,7 @@ Efter kursen ska studenten kunna:
 - Listor, länkar, bilder och formulär  
 - CSS: färger, text och box-model  
 - Flexbox, Grid och enkel responsiv design  
-- **Mini-projekt:** profilsida eller enkel layout  
+- **Mini-projekt:** profilsida eller enkel layout
 
 ---
 
