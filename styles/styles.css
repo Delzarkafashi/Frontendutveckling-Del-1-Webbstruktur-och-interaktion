@@ -1,6 +1,7 @@
 @import "./header.css";
 @import "./footer.css";
 @import "./product.css";
+@import "./kontakt.css";
 
 :root{
   --bg:#0b0c10;
