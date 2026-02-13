@@ -12,7 +12,6 @@ Under vecka 2 ska vi arbeta med följande moment:
 
 - Skriva HTML med semantiska element (header, main, footer, section, nav)
 - Använda listor, länkar och bilder på rätt sätt
-- Skapa enkla formulärelement (t.ex. input och button)
 - Styla med CSS: färger, text och box-model (margin, padding, border)
 - Bygga layout med Flexbox och/eller Grid
 - Göra en enkel responsiv anpassning (så sidan funkar på mindre skärmar)
@@ -40,18 +39,14 @@ Målet är att kunna bygga en hel sida med HTML + CSS som ser bra ut och har en 
    - Skapa header, main och footer
    - Lägg in nav och grundinnehåll
 
-2. Lägg till innehåll
-   - Lägg in länkar, listor och bilder
-   - Lägg in formulärelement (input + knapp)
-
-3. Styla grunder
+2. Styla grunder
    - Sätt färger, font och spacing
    - Använd box-model (margin/padding/border)
 
-4. Layout
+3. Layout
    - Använd Flexbox/Grid för att placera innehåll
    - Justera för mobil (enkel responsiv design)
 
-5. Testa och förbättra
+4. Testa och förbättra
    - Kontrollera att allt ser bra ut i webbläsaren
    - Fixa smådetaljer och städa CSS
